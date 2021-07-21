@@ -1,6 +1,6 @@
 <template >
   <div>
-    <div id="footer">Made with Nuxt + Typescript</div>
+    <div id="footer">{{ text }}</div>
   </div>
 </template>
 <script>
@@ -8,6 +8,9 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "Footer",
+  props: {
+    text: ""
+  },
 });
 </script>
 <style>
