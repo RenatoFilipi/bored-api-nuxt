@@ -12,7 +12,7 @@
         <p>{{ participants }}</p>
       </div>
     </div>
-    <Footer />
+    <Footer text="Made with Nuxt + Typescript" />
   </div>
 </template>
 
